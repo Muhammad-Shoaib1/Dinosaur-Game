@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+  <title>iDragon</title>
+</head>
+
+<body>
+  <div class="gameCont">
+    <div class="info">
+      <h1>Welcome to Dragon and Dinosaur Adventure Game</h1>
+      <h2 class="scoreCounter">Score : 0</h2>
+      <div class="controlButtons">
+        <button class="controlButton jumpButton">
+          <i class="fas fa-arrow-up"></i> Jump
+        </button>
+        <button class="controlButton moveLeftButton">
+          <i class="fas fa-arrow-left"></i> Left
+        </button>
+        <button class="controlButton moveRightButton">
+          <i class="fas fa-arrow-right"></i> Right
+        </button>
+        <button class="controlButton retryButton">
+          <i class="fas fa-redo"></i> Retry
+        </button>
+      </div>
+    </div>
+
+
+
+    <div class="dino"></div>
+    <div class="obstacle"></div>
+
+
+    <div class="EndOverlay gameOver">
+      <h1>Game Over</h1>
+      <h2 class="ResultScore">You Scored: 0</h2>
+      <img src="./media/dead.png" alt="Game Over Image">
+      <p>Better luck next time!</p>
+      <button class="retryButton">Try Again</button>
+    </div>
+  </div>
+</body>
+
+</html>
